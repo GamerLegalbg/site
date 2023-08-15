@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos legais para assistir</title>
+</head>
+
+<style>
+    .texto {
+        /* TEXT ALIGN DEIXA TODO TEXTO NO CENTRO */
+        text-align: center;
+    }
+
+    .centralisado {
+        /* DISPLAY FLEX DEFINE OS ITEMS ORGANIZADO */
+        display: flex; 
+        /* ALIGN ITEMS DEIXA TUDO NO CENTRO */
+        align-items: center;
+        /* JUSTIFY CONTENT DEIXA TUDO NO CENTRO */
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        .centralisado {
+            flex-direction: column;
+        }
+    }
+    mark{background-color:#000}
+</style>
+
+<body>
+    <!-- H1 COM CLASSE DE TEXTO -->
+    <h1 class="texto">Cursos do Gustavo Guanabara</h1> 
+    <!-- DIV COM CLASSE DE CENTRALIZADO, A DIV SERVE PRA ARMAZENAR TODOS OS A E DEIXAR CERTINHO COM FLEX -->
+    
+    <div class="centralisado">
+        <a href="../desafio2.html">
+            <img
+              src="desafios/thumb-hardware.png"
+              width="200"
+              height="100"
+            />
+          </a>
+          <a href="../desafio3.html">
+            <img
+              src="desafios/thumb-html.png"
+              width="200"
+              height="100"
+            />
+          </a>
+          <a href="../desafio4.html">
+            <img
+              src="desafios/thumb-js.png"
+              width="200"
+              height="100"
+            />
+          </a>
+          <a href="../desafio5.html">
+            <img
+              src="desafios/thumb-python.png"
+              width="200"
+              height="100"
+            />
+          </a>
+    </div>
+
+    <style>body {
+      background-color: #000; color: #fff;
+      }</style>
+      
+  </body>
+</html>
